@@ -1,0 +1,15 @@
+{
+  "name": "wp-agent",
+  "version": "1.0.0",
+  "description": "WordPress MCP server: publish & manage your self-hosted WordPress from Claude, ChatGPT & Cursor. Write posts, AI featured images, SEO, comment moderation & full site management. 69 tools, keyless OAuth.",
+  "logo": "https://mcp.getwpagent.com/branding/w-plain-512.png",
+  "homepage": "https://www.getwpagent.com",
+  "repository": "https://github.com/yaniv-fink/wp-agent-mcp",
+  "license": "MIT",
+  "author": {
+    "name": "YLabs",
+    "email": "hello@getwpagent.com",
+    "url": "https://www.getwpagent.com"
+  },
+  "keywords": ["wordpress", "mcp", "wp-agent", "seo", "content", "publishing", "woocommerce", "claude", "cursor"]
+}

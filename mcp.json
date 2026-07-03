@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wp-agent": {
+      "type": "http",
+      "url": "https://mcp.getwpagent.com/mcp"
+    }
+  }
+}
