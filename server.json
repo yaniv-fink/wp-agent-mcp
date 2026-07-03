@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.getwpagent/wordpress",
+  "title": "WP Agent — WordPress publishing & management with Claude",
+  "description": "WordPress MCP server: write & publish posts, AI featured images, SEO, comment moderation and full site management on your self-hosted site",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.getwpagent.com/docs",
+  "repository": {
+    "url": "https://github.com/yaniv-fink/wp-agent-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.getwpagent.com/mcp"
+    }
+  ]
+}
