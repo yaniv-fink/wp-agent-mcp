@@ -42,6 +42,17 @@ endpoint; OAuth runs automatically on first connect.
 Add the `url` above in Cursor's **Settings → Tools & MCP**, or install from the listing on
 `cursor.directory`.
 
+<!--
+MAINTAINER NOTE (cursor.directory): the GitHub auto-scanner reads mcp.json but STRIPS the
+`mcpServers` wrapper, leaving only `{ "type": "http", "url": ... }` in the listing's Component
+"Content". That drops the server name, so Cursor's install dialog shows "server" instead of
+"wp-agent". After any re-scan, re-paste the FULL wrapper into the listing Content and keep the
+key a lowercase slug (`wp-agent`, not "WP Agent" — it's a config identifier):
+  { "mcpServers": { "wp-agent": { "url": "https://mcp.getwpagent.com/mcp" } } }
+The connected display name comes from the server's own serverInfo ("WP Agent"), not this key.
+-->
+
+
 Full per-client instructions: **https://www.getwpagent.com/docs**
 
 To connect a WordPress site, install the free **WP Agent Connector** plugin (or use an
