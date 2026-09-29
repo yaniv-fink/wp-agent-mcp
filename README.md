@@ -10,7 +10,7 @@ settings — all on your own site, with your own credentials.
 
 > **WP Agent** is a Model Context Protocol (MCP) server for WordPress. **69 tools.** Remote
 > **Streamable HTTP** with **OAuth 2.0** — keyless, no API key to paste. A free account is
-> created on first connect (25 posts/month, no card).
+> created on first connect, no card.
 
 - 🌐 **Website:** https://www.getwpagent.com
 - 📚 **Install & docs:** https://www.getwpagent.com/docs
